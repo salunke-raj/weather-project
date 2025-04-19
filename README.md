@@ -19,3 +19,7 @@ This is a simple weather forecast app made using HTML, Tailwind CSS, and JavaScr
 
 (https://www.weatherapi.com/)
 
+## Github Link for Project:
+
+(https://github.com/salunke-raj/weather-project)
+
