@@ -15,16 +15,16 @@ searchBtn.addEventListener("click", () => {
     return;
   }
 
-  getWeather(cityName);
+  getWeatherData(cityName);
   addToRecent(cityName);
 });
 
 recentCities.addEventListener("change", () => {
   let city = recentCities.value;
-  getWeather(city);
+  getWeatherData(city);
 });
 
-function getWeather(cityName) {
+function getWeatherData(cityName) {
   let url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${cityName}&days=5&aqi=no&alerts=no`;
 
   fetch(url)
